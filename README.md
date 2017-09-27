@@ -1,5 +1,6 @@
 
-# Udacity Data Analyst Nanodegree Data Visualisation with D3.js
+# Udacity Data Analyst Nanodegree 
+## Data Visualisation with D3.js
 
 ## Summary
 
