@@ -158,7 +158,8 @@
                         .style("opacity", 0);
 
           /*
-            create the map with mercator projection, add water using graticule, colour the map path black
+            create the map with mercator projection, add water using graticule, 
+	    colour the map path black
           
           */               
           var svg = d3.select("#chartContainer")
@@ -241,9 +242,9 @@
             function animate_map(){
 
               /*
-                animate_map function calls the shade function to color the map by count 
-		of cellular subscribers for each year, 
-		calls create_slider function to enable the slider at the end of the animation.
+                animate_map function calls the shade function to color the map by count of 
+		cellular subscribers for each year, calls create_slider function to enable 
+		the slider at the end of the animation.
               */
               var yearInterval = setInterval(function(){
                 shade(years[yearIndex]);
@@ -301,7 +302,9 @@
 
               function shade(year){
                 /*
-                  shade function creates the colour fill on the map using the colour legend created in the drawMap function. Zero values are coloured white and countries that do not have data available are shaded grey.
+                  shade function creates the colour fill on the map using the colour legend 
+		  created in the drawMap function. Zero values are coloured white and 
+		  countries that do not have data available are shaded grey.
                 */
                 d3.select('h2')
                   .text(heading + "(" + year + ")") 
@@ -324,7 +327,8 @@
 
             function mergeMapData(csv_data, geo_data) {
                 /*
-                  mergeMapData read the data file and adds the Year, cellular subscription numbers to the geo JSON file for each country.
+                  mergeMapData read the data file and adds the Year, 
+		  cellular subscription numbers to the geo JSON file for each country.
                 */
 
                 var nested = d3.nest()
@@ -354,7 +358,8 @@
                 geo_data.features[44].properties.name = "Dominican Rep.";
 
                 /*
-                  Loop through the data file, pick a country, year and cellular subscription values, find the matching country in geo JSON and update the properties.
+                  Loop through the data file, pick a country, year and cellular subscription values, 
+		  find the matching country in geo JSON and update the properties.
 
                 */
 
