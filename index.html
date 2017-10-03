@@ -196,7 +196,9 @@
           function drawMap(csv_data){
 
             /*
-              drawMap function defines the scale for the map, adds legends, merges the geo JSON with the data file and calls animate function on click of the start animation button.
+              drawMap function defines the scale for the map, adds legends, 
+	      merges the geo JSON with the data file and calls animate function 
+	      on click of the start animation button.
             */
 
 
@@ -239,7 +241,9 @@
             function animate_map(){
 
               /*
-                animate_map function calls the shade function to color the map by count of cellular subscribers for each year, calls create_slider function to enable the slider at the end of the animation.
+                animate_map function calls the shade function to color the map by count 
+		of cellular subscribers for each year, 
+		calls create_slider function to enable the slider at the end of the animation.
               */
               var yearInterval = setInterval(function(){
                 shade(years[yearIndex]);
