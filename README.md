@@ -4,14 +4,15 @@
 
 ## Summary
 
-Cellular communication has become an integral part of our life now. Less than two decades ago, cellular communication was unknown to most of the world. This chart shows the growth in cellular subscribers around the world from 1979 to 2014.
+Cellular communication has become an integral part of our lives now. In the year 2002, only 2 countries, Israel and Luxembourg had more than 100 cellular subscriptions per 100 people. In 2014, this count rose to 118 countries, which is over 50% of the world countries. This visualization shows the growth in celluar subscriptions from 1979 to 2014.
 
 ## Design
 #### Choice of visualisation
 
-The intent of my visualisation is to show:
-- The growth in number of cellular subscribers from 1979 to 2014
-- The difference in adoption rate among countries and continents
+The intent of my visualisation is to:
+- show clearly countries with over 100 subscribers per 100 people
+- show the growth in number of cellular subscribers from 1979 to 2014
+- show the difference in adoption rate among countries and continents
 
 A  Choropleth map is a good way to show the change in subscribers over a period of time.
 
